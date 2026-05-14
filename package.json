@@ -1,0 +1,1 @@
+{"scripts":{"start":"python3 -m http.server 8080","export:data":"python3 scripts/export-public-social-growth.py"},"dependencies":{},"devDependencies":{}}

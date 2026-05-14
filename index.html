@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Social Growth Dashboard — Braydon Carter</title>
+  <meta name="description" content="Public follower growth dashboard for Braydon Carter across TikTok, Instagram, YouTube, LinkedIn, and Facebook." />
+  <meta property="og:title" content="Social Growth Dashboard — Braydon Carter" />
+  <meta property="og:description" content="Tracking public creator audience growth across social platforms." />
+  <meta name="theme-color" content="#08090a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <main class="shell">
+    <nav class="nav">
+      <a class="brand" href="."><span class="brand-dot"></span> Social Growth</a>
+      <div class="nav-links">
+        <a href="data/history.json">Data</a>
+        <a href="https://github.com/Fred4599/social-growth-dashboard">GitHub</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="eyebrow">PUBLIC CREATOR ANALYTICS</div>
+      <h1>Braydon Carter's audience growth dashboard.</h1>
+      <p>Daily follower and subscriber trends across TikTok, Instagram, YouTube, LinkedIn, and Facebook.</p>
+      <div class="hero-stats">
+        <div class="hero-number">
+          <span id="totalAudience">—</span>
+          <label>Total audience</label>
+        </div>
+        <div class="hero-pill positive"><span id="oneDayDelta">—</span><label>24h growth</label></div>
+        <div class="hero-pill positive"><span id="sevenDayDelta">—</span><label>7-day growth</label></div>
+        <div class="hero-pill positive"><span id="allTimeDelta">—</span><label>Since tracking</label></div>
+      </div>
+    </section>
+
+    <section class="cards" id="platformCards"></section>
+
+    <section class="panel chart-panel">
+      <div class="panel-header">
+        <div>
+          <div class="eyebrow">TOTAL TREND</div>
+          <h2>Overall audience growth</h2>
+        </div>
+        <span class="date-chip" id="latestDate">—</span>
+      </div>
+      <canvas id="totalChart" height="120"></canvas>
+    </section>
+
+    <section class="grid-2">
+      <div class="panel chart-panel">
+        <div class="panel-header compact">
+          <div>
+            <div class="eyebrow">PLATFORMS</div>
+            <h2>Individual account trends</h2>
+          </div>
+        </div>
+        <canvas id="platformChart" height="170"></canvas>
+      </div>
+      <div class="panel insights">
+        <div class="eyebrow">GROWTH SIGNALS</div>
+        <h2>What's moving</h2>
+        <div id="insightsList" class="insights-list"></div>
+      </div>
+    </section>
+
+    <footer>
+      <span id="generatedAt">Updated from public follower-count history.</span>
+      <span>Follower/subscriber counts only — no private analytics or credentials.</span>
+    </footer>
+  </main>
+  <script src="src/main.js"></script>
+</body>
+</html>

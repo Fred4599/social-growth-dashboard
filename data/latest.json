@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-05-14T17:30:25Z",
+  "latestDate": "2026-05-14",
+  "latest": {
+    "date": "2026-05-14",
+    "tiktok": 49600,
+    "instagram": 4941,
+    "youtube": 1520,
+    "linkedin": 589,
+    "facebook": 52389,
+    "total": 109039
+  },
+  "deltas": {
+    "oneDay": {
+      "tiktok": 400,
+      "instagram": 118,
+      "youtube": 200,
+      "linkedin": 0,
+      "facebook": 1109,
+      "total": 1827,
+      "from": "2026-05-13",
+      "to": "2026-05-14"
+    },
+    "sevenDay": {
+      "tiktok": 2800,
+      "instagram": 1421,
+      "youtube": 642,
+      "linkedin": 6,
+      "facebook": 6804,
+      "total": 11673,
+      "from": "2026-05-07",
+      "to": "2026-05-14"
+    },
+    "allTime": {
+      "tiktok": 7300,
+      "instagram": 3783,
+      "youtube": 839,
+      "linkedin": 28,
+      "facebook": 19583,
+      "total": 31533,
+      "from": "2026-04-21",
+      "to": "2026-05-14"
+    }
+  },
+  "platforms": [
+    "tiktok",
+    "instagram",
+    "youtube",
+    "linkedin",
+    "facebook"
+  ],
+  "accounts": {
+    "tiktok": "https://www.tiktok.com/@carter.braydon",
+    "instagram": "https://www.instagram.com/thecoachbraydon",
+    "youtube": "https://youtube.com/@braydon_carter",
+    "linkedin": "https://www.linkedin.com/in/braydon-carter-701949a1",
+    "facebook": "https://www.facebook.com/carter.braydon"
+  },
+  "dataPolicy": "Public follower/subscriber counts only. No private analytics, credentials, scrape payloads, or internal run metadata."
+}
