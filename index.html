@@ -33,6 +33,7 @@
         <button class="range-btn is-active" type="button" data-range="1">Last day</button>
         <button class="range-btn" type="button" data-range="7">Last 7 days</button>
         <button class="range-btn" type="button" data-range="28">Last 28 days</button>
+        <button class="range-btn" type="button" data-range="all">All time</button>
       </div>
       <div class="hero-stats">
         <div class="hero-number">
@@ -65,9 +66,10 @@
         <div class="panel-header compact">
           <div>
             <div class="eyebrow">PLATFORMS</div>
-            <h2>Individual account trends</h2>
+            <h2 id="platformChartTitle">Individual account trends</h2>
             <p class="panel-subtitle" id="platformChartSubtitle">Showing selected range.</p>
           </div>
+          <button class="ghost-chip" type="button" id="showAllPlatforms">All platforms</button>
         </div>
         <canvas id="platformChart" height="170"></canvas>
       </div>
