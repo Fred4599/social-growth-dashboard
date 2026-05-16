@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-05-15T13:08:02Z",
-  "latestDate": "2026-05-15",
+  "generatedAt": "2026-05-16T13:04:33Z",
+  "latestDate": "2026-05-16",
   "latest": {
-    "date": "2026-05-15",
-    "tiktok": 49800,
-    "instagram": 5039,
-    "youtube": 1760,
-    "linkedin": 590,
-    "facebook": 53400,
-    "total": 110589
+    "date": "2026-05-16",
+    "tiktok": 50200,
+    "instagram": 5182,
+    "youtube": 1850,
+    "linkedin": 591,
+    "facebook": 54502,
+    "total": 112325
   },
   "deltas": {
     "oneDay": {
-      "tiktok": 200,
-      "instagram": 98,
-      "youtube": 240,
+      "tiktok": 400,
+      "instagram": 143,
+      "youtube": 90,
       "linkedin": 1,
-      "facebook": 1011,
-      "total": 1550,
-      "from": "2026-05-14",
-      "to": "2026-05-15"
+      "facebook": 1102,
+      "total": 1736,
+      "from": "2026-05-15",
+      "to": "2026-05-16"
     },
     "sevenDay": {
-      "tiktok": 2600,
-      "instagram": 1359,
-      "youtube": 857,
-      "linkedin": 5,
-      "facebook": 7004,
-      "total": 11825,
-      "from": "2026-05-08",
-      "to": "2026-05-15"
+      "tiktok": 2900,
+      "instagram": 1394,
+      "youtube": 924,
+      "linkedin": 6,
+      "facebook": 7444,
+      "total": 12668,
+      "from": "2026-05-09",
+      "to": "2026-05-16"
     },
     "allTime": {
-      "tiktok": 7500,
-      "instagram": 3881,
-      "youtube": 1079,
-      "linkedin": 29,
-      "facebook": 20594,
-      "total": 33083,
+      "tiktok": 7900,
+      "instagram": 4024,
+      "youtube": 1169,
+      "linkedin": 30,
+      "facebook": 21696,
+      "total": 34819,
       "from": "2026-04-21",
-      "to": "2026-05-15"
+      "to": "2026-05-16"
     }
   },
   "platforms": [
